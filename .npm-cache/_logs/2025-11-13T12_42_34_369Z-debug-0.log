@@ -1,0 +1,1312 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.6.2
+2 info using node@v24.11.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/.npmrc
+5 silly config load:file:/Users/renato/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/.npm-cache/_logs/2025-11-13T12_42_34_369Z-
+10 verbose logfile /Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/.npm-cache/_logs/2025-11-13T12_42_34_369Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly reify mark retired [
+14 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/acorn'
+14 silly reify ]
+15 silly reify mark retired [
+15 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/acorn-jsx'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/ajv'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/ansi-styles'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/argparse'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/array-buffer-byte-length'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/aria-query'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/array-includes'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/array.prototype.findlast'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/array.prototype.findlastindex'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/array.prototype.flat'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/array.prototype.flatmap'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/array.prototype.tosorted'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/arraybuffer.prototype.slice'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/ast-types-flow'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/async-function'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/available-typed-arrays'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/axe-core'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/axobject-query'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/balanced-match'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/brace-expansion'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/braces'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/call-bind'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/call-bind-apply-helpers'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/call-bound'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/callsites'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/caniuse-lite'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/chalk'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/chownr'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/client-only'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/color-convert'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/color-name'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/concat-map'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/cross-spawn'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/csstype'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/damerau-levenshtein'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/data-view-buffer'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/data-view-byte-length'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/data-view-byte-offset'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/deep-is'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/debug'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/define-properties'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/detect-libc'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/doctrine'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/dunder-proto'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/emoji-regex'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/define-data-property'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/enhanced-resolve'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/es-abstract'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/es-define-property'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/es-errors'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/es-iterator-helpers'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/es-set-tostringtag'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/es-object-atoms'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/es-to-primitive'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/es-shim-unscopables'
+70 silly reify ]
+71 silly reify mark retired [
+71 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-config-next'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/escape-string-regexp'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-import-resolver-node'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-import-resolver-typescript'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-module-utils'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-plugin-import'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-plugin-jsx-a11y'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-plugin-react'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-plugin-react-hooks'
+79 silly reify ]
+80 silly reify mark retired [
+80 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-scope'
+80 silly reify ]
+81 silly reify mark retired [
+81 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-visitor-keys'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/espree'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/esquery'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/esrecurse'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/estraverse'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/esutils'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/fast-deep-equal'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/fast-glob'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/fast-json-stable-stringify'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/fastq'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/file-entry-cache'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/fast-levenshtein'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/fill-range'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/find-up'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/flatted'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/for-each'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/flat-cache'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/function.prototype.name'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/function-bind'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/functions-have-names'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/get-intrinsic'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/get-proto'
+102 silly reify ]
+103 silly reify mark retired [
+103 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/get-symbol-description'
+103 silly reify ]
+104 silly reify mark retired [
+104 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/generator-function'
+104 silly reify ]
+105 silly reify mark retired [
+105 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/glob-parent'
+105 silly reify ]
+106 silly reify mark retired [
+106 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/globals'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/globalthis'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/gopd'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/graceful-fs'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/get-tsconfig'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/graphemer'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/has-flag'
+112 silly reify ]
+113 silly reify mark retired [
+113 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/has-bigints'
+113 silly reify ]
+114 silly reify mark retired [
+114 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/has-property-descriptors'
+114 silly reify ]
+115 silly reify mark retired [
+115 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/has-proto'
+115 silly reify ]
+116 silly reify mark retired [
+116 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/has-tostringtag'
+116 silly reify ]
+117 silly reify mark retired [
+117 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/hasown'
+117 silly reify ]
+118 silly reify mark retired [
+118 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/has-symbols'
+118 silly reify ]
+119 silly reify mark retired [
+119 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/ignore'
+119 silly reify ]
+120 silly reify mark retired [
+120 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/import-fresh'
+120 silly reify ]
+121 silly reify mark retired [
+121 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/imurmurhash'
+121 silly reify ]
+122 silly reify mark retired [
+122 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/internal-slot'
+122 silly reify ]
+123 silly reify mark retired [
+123 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-array-buffer'
+123 silly reify ]
+124 silly reify mark retired [
+124 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-async-function'
+124 silly reify ]
+125 silly reify mark retired [
+125 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-bigint'
+125 silly reify ]
+126 silly reify mark retired [
+126 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-boolean-object'
+126 silly reify ]
+127 silly reify mark retired [
+127 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-bun-module'
+127 silly reify ]
+128 silly reify mark retired [
+128 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-callable'
+128 silly reify ]
+129 silly reify mark retired [
+129 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-core-module'
+129 silly reify ]
+130 silly reify mark retired [
+130 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-date-object'
+130 silly reify ]
+131 silly reify mark retired [
+131 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-extglob'
+131 silly reify ]
+132 silly reify mark retired [
+132 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-data-view'
+132 silly reify ]
+133 silly reify mark retired [
+133 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-finalizationregistry'
+133 silly reify ]
+134 silly reify mark retired [
+134 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-generator-function'
+134 silly reify ]
+135 silly reify mark retired [
+135 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-glob'
+135 silly reify ]
+136 silly reify mark retired [
+136 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-map'
+136 silly reify ]
+137 silly reify mark retired [
+137 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-negative-zero'
+137 silly reify ]
+138 silly reify mark retired [
+138 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-number'
+138 silly reify ]
+139 silly reify mark retired [
+139 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-number-object'
+139 silly reify ]
+140 silly reify mark retired [
+140 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-regex'
+140 silly reify ]
+141 silly reify mark retired [
+141 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-set'
+141 silly reify ]
+142 silly reify mark retired [
+142 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-shared-array-buffer'
+142 silly reify ]
+143 silly reify mark retired [
+143 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-string'
+143 silly reify ]
+144 silly reify mark retired [
+144 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-symbol'
+144 silly reify ]
+145 silly reify mark retired [
+145 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-typed-array'
+145 silly reify ]
+146 silly reify mark retired [
+146 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-weakmap'
+146 silly reify ]
+147 silly reify mark retired [
+147 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-weakset'
+147 silly reify ]
+148 silly reify mark retired [
+148 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-weakref'
+148 silly reify ]
+149 silly reify mark retired [
+149 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/isarray'
+149 silly reify ]
+150 silly reify mark retired [
+150 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/isexe'
+150 silly reify ]
+151 silly reify mark retired [
+151 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/iterator.prototype'
+151 silly reify ]
+152 silly reify mark retired [
+152 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/jiti'
+152 silly reify ]
+153 silly reify mark retired [
+153 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/js-tokens'
+153 silly reify ]
+154 silly reify mark retired [
+154 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/js-yaml'
+154 silly reify ]
+155 silly reify mark retired [
+155 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/json-buffer'
+155 silly reify ]
+156 silly reify mark retired [
+156 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/json-schema-traverse'
+156 silly reify ]
+157 silly reify mark retired [
+157 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/json-stable-stringify-without-jsonify'
+157 silly reify ]
+158 silly reify mark retired [
+158 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/jsx-ast-utils'
+158 silly reify ]
+159 silly reify mark retired [
+159 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/keyv'
+159 silly reify ]
+160 silly reify mark retired [
+160 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/json5'
+160 silly reify ]
+161 silly reify mark retired [
+161 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/language-subtag-registry'
+161 silly reify ]
+162 silly reify mark retired [
+162 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/language-tags'
+162 silly reify ]
+163 silly reify mark retired [
+163 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/levn'
+163 silly reify ]
+164 silly reify mark retired [
+164 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/lightningcss'
+164 silly reify ]
+165 silly reify mark retired [
+165 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/lightningcss-darwin-arm64'
+165 silly reify ]
+166 silly reify mark retired [
+166 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/locate-path'
+166 silly reify ]
+167 silly reify mark retired [
+167 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/lodash.merge'
+167 silly reify ]
+168 silly reify mark retired [
+168 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/loose-envify'
+168 silly reify ]
+169 silly reify mark retired [
+169 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/magic-string'
+169 silly reify ]
+170 silly reify mark retired [
+170 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/math-intrinsics'
+170 silly reify ]
+171 silly reify mark retired [
+171 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/merge2'
+171 silly reify ]
+172 silly reify mark retired [
+172 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/minimatch'
+172 silly reify ]
+173 silly reify mark retired [
+173 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/minimist'
+173 silly reify ]
+174 silly reify mark retired [
+174 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/micromatch'
+174 silly reify ]
+175 silly reify mark retired [
+175 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/minipass'
+175 silly reify ]
+176 silly reify mark retired [
+176 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/minizlib'
+176 silly reify ]
+177 silly reify mark retired [
+177 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/ms'
+177 silly reify ]
+178 silly reify mark retired [
+178 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/nanoid'
+178 silly reify ]
+179 silly reify mark retired [
+179 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/napi-postinstall'
+179 silly reify ]
+180 silly reify mark retired [
+180 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/natural-compare'
+180 silly reify ]
+181 silly reify mark retired [
+181 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/next'
+181 silly reify ]
+182 silly reify mark retired [
+182 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/object-inspect'
+182 silly reify ]
+183 silly reify mark retired [
+183 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/object-assign'
+183 silly reify ]
+184 silly reify mark retired [
+184 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/object-keys'
+184 silly reify ]
+185 silly reify mark retired [
+185 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/object.assign'
+185 silly reify ]
+186 silly reify mark retired [
+186 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/object.entries'
+186 silly reify ]
+187 silly reify mark retired [
+187 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/object.fromentries'
+187 silly reify ]
+188 silly reify mark retired [
+188 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/object.groupby'
+188 silly reify ]
+189 silly reify mark retired [
+189 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/object.values'
+189 silly reify ]
+190 silly reify mark retired [
+190 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/optionator'
+190 silly reify ]
+191 silly reify mark retired [
+191 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/own-keys'
+191 silly reify ]
+192 silly reify mark retired [
+192 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/p-limit'
+192 silly reify ]
+193 silly reify mark retired [
+193 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/p-locate'
+193 silly reify ]
+194 silly reify mark retired [
+194 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/parent-module'
+194 silly reify ]
+195 silly reify mark retired [
+195 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/path-exists'
+195 silly reify ]
+196 silly reify mark retired [
+196 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/path-key'
+196 silly reify ]
+197 silly reify mark retired [
+197 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/picocolors'
+197 silly reify ]
+198 silly reify mark retired [
+198 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/picomatch'
+198 silly reify ]
+199 silly reify mark retired [
+199 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/possible-typed-array-names'
+199 silly reify ]
+200 silly reify mark retired [
+200 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/postcss'
+200 silly reify ]
+201 silly reify mark retired [
+201 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/prelude-ls'
+201 silly reify ]
+202 silly reify mark retired [
+202 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/path-parse'
+202 silly reify ]
+203 silly reify mark retired [
+203 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/prop-types'
+203 silly reify ]
+204 silly reify mark retired [
+204 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/punycode'
+204 silly reify ]
+205 silly reify mark retired [
+205 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/queue-microtask'
+205 silly reify ]
+206 silly reify mark retired [
+206 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/react'
+206 silly reify ]
+207 silly reify mark retired [
+207 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/react-dom'
+207 silly reify ]
+208 silly reify mark retired [
+208 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/react-is'
+208 silly reify ]
+209 silly reify mark retired [
+209 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/reflect.getprototypeof'
+209 silly reify ]
+210 silly reify mark retired [
+210 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/regexp.prototype.flags'
+210 silly reify ]
+211 silly reify mark retired [
+211 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/resolve'
+211 silly reify ]
+212 silly reify mark retired [
+212 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/resolve-from'
+212 silly reify ]
+213 silly reify mark retired [
+213 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/resolve-pkg-maps'
+213 silly reify ]
+214 silly reify mark retired [
+214 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/reusify'
+214 silly reify ]
+215 silly reify mark retired [
+215 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/run-parallel'
+215 silly reify ]
+216 silly reify mark retired [
+216 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/safe-array-concat'
+216 silly reify ]
+217 silly reify mark retired [
+217 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/safe-push-apply'
+217 silly reify ]
+218 silly reify mark retired [
+218 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/safe-regex-test'
+218 silly reify ]
+219 silly reify mark retired [
+219 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/scheduler'
+219 silly reify ]
+220 silly reify mark retired [
+220 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/semver'
+220 silly reify ]
+221 silly reify mark retired [
+221 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/set-function-length'
+221 silly reify ]
+222 silly reify mark retired [
+222 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/set-function-name'
+222 silly reify ]
+223 silly reify mark retired [
+223 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/set-proto'
+223 silly reify ]
+224 silly reify mark retired [
+224 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/sharp'
+224 silly reify ]
+225 silly reify mark retired [
+225 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/shebang-command'
+225 silly reify ]
+226 silly reify mark retired [
+226 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/shebang-regex'
+226 silly reify ]
+227 silly reify mark retired [
+227 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/side-channel-list'
+227 silly reify ]
+228 silly reify mark retired [
+228 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/side-channel'
+228 silly reify ]
+229 silly reify mark retired [
+229 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/side-channel-map'
+229 silly reify ]
+230 silly reify mark retired [
+230 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/side-channel-weakmap'
+230 silly reify ]
+231 silly reify mark retired [
+231 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/source-map-js'
+231 silly reify ]
+232 silly reify mark retired [
+232 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/stable-hash'
+232 silly reify ]
+233 silly reify mark retired [
+233 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/stop-iteration-iterator'
+233 silly reify ]
+234 silly reify mark retired [
+234 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/string.prototype.includes'
+234 silly reify ]
+235 silly reify mark retired [
+235 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/string.prototype.matchall'
+235 silly reify ]
+236 silly reify mark retired [
+236 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/string.prototype.repeat'
+236 silly reify ]
+237 silly reify mark retired [
+237 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/string.prototype.trim'
+237 silly reify ]
+238 silly reify mark retired [
+238 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/string.prototype.trimend'
+238 silly reify ]
+239 silly reify mark retired [
+239 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/string.prototype.trimstart'
+239 silly reify ]
+240 silly reify mark retired [
+240 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/strip-bom'
+240 silly reify ]
+241 silly reify mark retired [
+241 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/strip-json-comments'
+241 silly reify ]
+242 silly reify mark retired [
+242 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/styled-jsx'
+242 silly reify ]
+243 silly reify mark retired [
+243 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/supports-color'
+243 silly reify ]
+244 silly reify mark retired [
+244 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/supports-preserve-symlinks-flag'
+244 silly reify ]
+245 silly reify mark retired [
+245 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/tailwindcss'
+245 silly reify ]
+246 silly reify mark retired [
+246 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/tapable'
+246 silly reify ]
+247 silly reify mark retired [
+247 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/tar'
+247 silly reify ]
+248 silly reify mark retired [
+248 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/tinyglobby'
+248 silly reify ]
+249 silly reify mark retired [
+249 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/to-regex-range'
+249 silly reify ]
+250 silly reify mark retired [
+250 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/ts-api-utils'
+250 silly reify ]
+251 silly reify mark retired [
+251 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/tsconfig-paths'
+251 silly reify ]
+252 silly reify mark retired [
+252 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/tslib'
+252 silly reify ]
+253 silly reify mark retired [
+253 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/type-check'
+253 silly reify ]
+254 silly reify mark retired [
+254 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/typed-array-buffer'
+254 silly reify ]
+255 silly reify mark retired [
+255 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/typed-array-byte-length'
+255 silly reify ]
+256 silly reify mark retired [
+256 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/typed-array-byte-offset'
+256 silly reify ]
+257 silly reify mark retired [
+257 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/typed-array-length'
+257 silly reify ]
+258 silly reify mark retired [
+258 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/typescript'
+258 silly reify ]
+259 silly reify mark retired [
+259 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/unbox-primitive'
+259 silly reify ]
+260 silly reify mark retired [
+260 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/undici-types'
+260 silly reify ]
+261 silly reify mark retired [
+261 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/unrs-resolver'
+261 silly reify ]
+262 silly reify mark retired [
+262 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/uri-js'
+262 silly reify ]
+263 silly reify mark retired [
+263 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/which'
+263 silly reify ]
+264 silly reify mark retired [
+264 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/which-boxed-primitive'
+264 silly reify ]
+265 silly reify mark retired [
+265 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/which-builtin-type'
+265 silly reify ]
+266 silly reify mark retired [
+266 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/which-collection'
+266 silly reify ]
+267 silly reify mark retired [
+267 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/which-typed-array'
+267 silly reify ]
+268 silly reify mark retired [
+268 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/word-wrap'
+268 silly reify ]
+269 silly reify mark retired [
+269 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/yallist'
+269 silly reify ]
+270 silly reify mark retired [
+270 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/yocto-queue'
+270 silly reify ]
+271 silly reify mark retired [
+271 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@alloc/quick-lru'
+271 silly reify ]
+272 silly reify mark retired [
+272 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@emnapi/core'
+272 silly reify ]
+273 silly reify mark retired [
+273 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@emnapi/wasi-threads'
+273 silly reify ]
+274 silly reify mark retired [
+274 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint/config-array'
+274 silly reify ]
+275 silly reify mark retired [
+275 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint/config-helpers'
+275 silly reify ]
+276 silly reify mark retired [
+276 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint/core'
+276 silly reify ]
+277 silly reify mark retired [
+277 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint/eslintrc'
+277 silly reify ]
+278 silly reify mark retired [
+278 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint/js'
+278 silly reify ]
+279 silly reify mark retired [
+279 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint/object-schema'
+279 silly reify ]
+280 silly reify mark retired [
+280 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint/plugin-kit'
+280 silly reify ]
+281 silly reify mark retired [
+281 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@emnapi/runtime'
+281 silly reify ]
+282 silly reify mark retired [
+282 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint-community/regexpp'
+282 silly reify ]
+283 silly reify mark retired [
+283 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint-community/eslint-utils'
+283 silly reify ]
+284 silly reify mark retired [
+284 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@humanfs/core'
+284 silly reify ]
+285 silly reify mark retired [
+285 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@humanfs/node'
+285 silly reify ]
+286 silly reify mark retired [
+286 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@humanwhocodes/module-importer'
+286 silly reify ]
+287 silly reify mark retired [
+287 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@humanwhocodes/retry'
+287 silly reify ]
+288 silly reify mark retired [
+288 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@img/colour'
+288 silly reify ]
+289 silly reify mark retired [
+289 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@img/sharp-darwin-arm64'
+289 silly reify ]
+290 silly reify mark retired [
+290 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@img/sharp-libvips-darwin-arm64'
+290 silly reify ]
+291 silly reify mark retired [
+291 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@isaacs/fs-minipass'
+291 silly reify ]
+292 silly reify mark retired [
+292 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@jridgewell/gen-mapping'
+292 silly reify ]
+293 silly reify mark retired [
+293 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@jridgewell/remapping'
+293 silly reify ]
+294 silly reify mark retired [
+294 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@jridgewell/resolve-uri'
+294 silly reify ]
+295 silly reify mark retired [
+295 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@jridgewell/sourcemap-codec'
+295 silly reify ]
+296 silly reify mark retired [
+296 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@jridgewell/trace-mapping'
+296 silly reify ]
+297 silly reify mark retired [
+297 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@napi-rs/wasm-runtime'
+297 silly reify ]
+298 silly reify mark retired [
+298 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@next/env'
+298 silly reify ]
+299 silly reify mark retired [
+299 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@next/eslint-plugin-next'
+299 silly reify ]
+300 silly reify mark retired [
+300 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@next/swc-darwin-arm64'
+300 silly reify ]
+301 silly reify mark retired [
+301 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@nodelib/fs.scandir'
+301 silly reify ]
+302 silly reify mark retired [
+302 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@nodelib/fs.stat'
+302 silly reify ]
+303 silly reify mark retired [
+303 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@nodelib/fs.walk'
+303 silly reify ]
+304 silly reify mark retired [
+304 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@nolyfill/is-core-module'
+304 silly reify ]
+305 silly reify mark retired [
+305 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@openai/chatkit'
+305 silly reify ]
+306 silly reify mark retired [
+306 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@openai/chatkit-react'
+306 silly reify ]
+307 silly reify mark retired [
+307 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@rtsao/scc'
+307 silly reify ]
+308 silly reify mark retired [
+308 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@rushstack/eslint-patch'
+308 silly reify ]
+309 silly reify mark retired [
+309 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@swc/helpers'
+309 silly reify ]
+310 silly reify mark retired [
+310 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@tailwindcss/node'
+310 silly reify ]
+311 silly reify mark retired [
+311 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@tailwindcss/oxide'
+311 silly reify ]
+312 silly reify mark retired [
+312 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@tailwindcss/oxide-darwin-arm64'
+312 silly reify ]
+313 silly reify mark retired [
+313 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@tailwindcss/postcss'
+313 silly reify ]
+314 silly reify mark retired [
+314 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@tybys/wasm-util'
+314 silly reify ]
+315 silly reify mark retired [
+315 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@types/estree'
+315 silly reify ]
+316 silly reify mark retired [
+316 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@types/json-schema'
+316 silly reify ]
+317 silly reify mark retired [
+317 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@types/json5'
+317 silly reify ]
+318 silly reify mark retired [
+318 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@types/node'
+318 silly reify ]
+319 silly reify mark retired [
+319 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@types/react'
+319 silly reify ]
+320 silly reify mark retired [
+320 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@types/react-dom'
+320 silly reify ]
+321 silly reify mark retired [
+321 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/eslint-plugin'
+321 silly reify ]
+322 silly reify mark retired [
+322 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/project-service'
+322 silly reify ]
+323 silly reify mark retired [
+323 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/parser'
+323 silly reify ]
+324 silly reify mark retired [
+324 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/scope-manager'
+324 silly reify ]
+325 silly reify mark retired [
+325 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/tsconfig-utils'
+325 silly reify ]
+326 silly reify mark retired [
+326 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/type-utils'
+326 silly reify ]
+327 silly reify mark retired [
+327 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/types'
+327 silly reify ]
+328 silly reify mark retired [
+328 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/typescript-estree'
+328 silly reify ]
+329 silly reify mark retired [
+329 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/utils'
+329 silly reify ]
+330 silly reify mark retired [
+330 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/visitor-keys'
+330 silly reify ]
+331 silly reify mark retired [
+331 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@unrs/resolver-binding-darwin-arm64'
+331 silly reify ]
+332 silly reify moves {
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/acorn': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.acorn-QnF6uj9i',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/acorn-jsx': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.acorn-jsx-TyXcGVxx',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/ajv': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.ajv-W3kkxQyb',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/ansi-styles': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.ansi-styles-2HNX7G7M',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/argparse': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.argparse-h2HcURYj',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/array-buffer-byte-length': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.array-buffer-byte-length-qODtW6h9',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/aria-query': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.aria-query-Qhx5RQWj',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/array-includes': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.array-includes-Z2F0kdML',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/array.prototype.findlast': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.array.prototype.findlast-4oIyHaP9',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/array.prototype.findlastindex': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.array.prototype.findlastindex-7KEfpvUW',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/array.prototype.flat': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.array.prototype.flat-8kkyXD2P',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/array.prototype.flatmap': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.array.prototype.flatmap-hkMFtxZt',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/array.prototype.tosorted': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.array.prototype.tosorted-A00Fl7Ue',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/arraybuffer.prototype.slice': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.arraybuffer.prototype.slice-LyuecY0M',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/ast-types-flow': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.ast-types-flow-m9gFpGEO',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/async-function': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.async-function-Nd7atOWh',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/available-typed-arrays': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.available-typed-arrays-kC3Uxp61',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/axe-core': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.axe-core-foa6ilx8',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/axobject-query': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.axobject-query-fxBDljNY',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/balanced-match': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.balanced-match-xZhmXU3v',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/brace-expansion': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.brace-expansion-oWG6EhVv',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/braces': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.braces-YqjICDqg',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/call-bind': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.call-bind-eqpJa40M',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/call-bind-apply-helpers': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.call-bind-apply-helpers-PGvIj131',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/call-bound': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.call-bound-GI2y44kK',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/callsites': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.callsites-XolmFQfj',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/caniuse-lite': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.caniuse-lite-tGxkOfzj',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/chalk': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.chalk-l4YElxqz',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/chownr': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.chownr-1Mfu9ZX2',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/client-only': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.client-only-n7vVtRlc',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/color-convert': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.color-convert-eJetky9j',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/color-name': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.color-name-PhwdAkW5',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/concat-map': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.concat-map-zevMCOte',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/cross-spawn': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.cross-spawn-Z7qjIHiH',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/csstype': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.csstype-f7kwPcXq',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/damerau-levenshtein': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.damerau-levenshtein-xDtSV22G',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/data-view-buffer': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.data-view-buffer-Dko77O3g',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/data-view-byte-length': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.data-view-byte-length-hnaqyJZe',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/data-view-byte-offset': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.data-view-byte-offset-wkfMm47C',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/deep-is': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.deep-is-v5Mcs8ad',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/debug': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.debug-swNuRWVA',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/define-properties': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.define-properties-LCjEU1T4',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/detect-libc': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.detect-libc-9urASOK1',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/doctrine': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.doctrine-M0wIXcMU',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/dunder-proto': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.dunder-proto-K31A46ij',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/emoji-regex': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.emoji-regex-qFXShgME',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/define-data-property': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.define-data-property-LRrc86bK',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/enhanced-resolve': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.enhanced-resolve-fJVoEd8W',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/es-abstract': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.es-abstract-wCMNUZ17',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/es-define-property': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.es-define-property-t0JEwdgf',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/es-errors': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.es-errors-E234ETt0',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/es-iterator-helpers': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.es-iterator-helpers-pcUZ1lNX',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/es-set-tostringtag': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.es-set-tostringtag-ElolqTA2',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/es-object-atoms': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.es-object-atoms-3UMUleFi',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/es-to-primitive': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.es-to-primitive-oIxEl0O1',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.eslint-iRNneTDo',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/es-shim-unscopables': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.es-shim-unscopables-u5USU08h',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-config-next': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.eslint-config-next-Q1kzKNGk',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/escape-string-regexp': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.escape-string-regexp-oWi7NnHe',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-import-resolver-node': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.eslint-import-resolver-node-KdysrZpz',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-import-resolver-typescript': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.eslint-import-resolver-typescript-e4jfVpO4',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-module-utils': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.eslint-module-utils-Loj6l2Fw',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-plugin-import': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.eslint-plugin-import-gMrEHcJc',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-plugin-jsx-a11y': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.eslint-plugin-jsx-a11y-dlRUxasa',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-plugin-react': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.eslint-plugin-react-0ptZeJq2',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-plugin-react-hooks': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.eslint-plugin-react-hooks-qvSgWlGL',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-scope': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.eslint-scope-7PxKiCdY',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-visitor-keys': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.eslint-visitor-keys-rm3Wms2a',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/espree': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.espree-dbTqQXC1',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/esquery': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.esquery-dzNBY7E7',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/esrecurse': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.esrecurse-HSDdRrsJ',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/estraverse': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.estraverse-1TICOpkB',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/esutils': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.esutils-j9EnwNc3',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/fast-deep-equal': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.fast-deep-equal-QzcLR6PA',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/fast-glob': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.fast-glob-mbSWNxYI',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/fast-json-stable-stringify': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.fast-json-stable-stringify-bayaldIE',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/fastq': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.fastq-ZT4RTqJx',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/file-entry-cache': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.file-entry-cache-uHsq9RVp',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/fast-levenshtein': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.fast-levenshtein-g1b3zjBS',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/fill-range': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.fill-range-wz2QcAOT',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/find-up': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.find-up-jpMdMPdU',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/flatted': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.flatted-i01ah1A6',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/for-each': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.for-each-RfgDnlKu',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/flat-cache': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.flat-cache-QX2ERBEp',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/function.prototype.name': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.function.prototype.name-KQoqkRox',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/function-bind': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.function-bind-EClFqIB9',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/functions-have-names': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.functions-have-names-Swk1VX82',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/get-intrinsic': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.get-intrinsic-8DrPyujb',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/get-proto': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.get-proto-hImdu3x0',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/get-symbol-description': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.get-symbol-description-mXWpTA0m',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/generator-function': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.generator-function-NoETXTfr',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/glob-parent': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.glob-parent-MU3nD7GK',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/globals': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.globals-BDfz9Nc5',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/globalthis': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.globalthis-fZ0IZcGU',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/gopd': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.gopd-HCJmeu2H',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/graceful-fs': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.graceful-fs-fevOJeUX',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/get-tsconfig': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.get-tsconfig-hURHuxSP',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/graphemer': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.graphemer-yIkIkjsP',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/has-flag': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.has-flag-FXMweBcF',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/has-bigints': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.has-bigints-IkD2gs0o',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/has-property-descriptors': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.has-property-descriptors-PebseHay',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/has-proto': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.has-proto-rVeRlXz9',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/has-tostringtag': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.has-tostringtag-JVvsT6CY',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/hasown': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.hasown-EmTqyqlB',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/has-symbols': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.has-symbols-xWnWHu0m',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/ignore': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.ignore-cdCz2QXj',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/import-fresh': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.import-fresh-GiKqP2Ys',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/imurmurhash': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.imurmurhash-oRNnf8vt',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/internal-slot': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.internal-slot-BwFkDkbV',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-array-buffer': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-array-buffer-L4HNAsSi',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-async-function': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-async-function-CC4n0tVN',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-bigint': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-bigint-b3ONCpz9',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-boolean-object': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-boolean-object-ZmcCd5C8',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-bun-module': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-bun-module-tH5IOOm4',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-callable': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-callable-w49nG93T',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-core-module': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-core-module-Vaqh9FSK',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-date-object': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-date-object-zpUYcN1w',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-extglob': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-extglob-eHOzLvCV',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-data-view': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-data-view-B863HYf0',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-finalizationregistry': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-finalizationregistry-EAhdVPBK',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-generator-function': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-generator-function-DPx09TXw',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-glob': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-glob-hC7eL0EY',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-map': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-map-xaOyhaiW',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-negative-zero': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-negative-zero-kMmnrVd9',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-number': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-number-LrfHiYq5',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-number-object': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-number-object-OsOj2nOP',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-regex': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-regex-WEQljLlD',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-set': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-set-cx73C0Il',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-shared-array-buffer': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-shared-array-buffer-Gd5DjRLG',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-string': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-string-e4dsoTRq',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-symbol': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-symbol-cAy92W6v',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-typed-array': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-typed-array-ZREa0wiF',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-weakmap': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-weakmap-B4srVWJM',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-weakset': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-weakset-LZBCuiHm',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/is-weakref': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.is-weakref-zSksS8Fq',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/isarray': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.isarray-9aIwqgSF',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/isexe': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.isexe-0DfAog5q',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/iterator.prototype': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.iterator.prototype-LI9QX5Wi',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/jiti': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.jiti-bmEMHwFd',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/js-tokens': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.js-tokens-GpYzWIT7',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/js-yaml': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.js-yaml-ZAEuTxZM',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/json-buffer': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.json-buffer-nZZygwzd',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/json-schema-traverse': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.json-schema-traverse-QO9Ca0PL',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/json-stable-stringify-without-jsonify': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.json-stable-stringify-without-jsonify-JNa0ujgn',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/jsx-ast-utils': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.jsx-ast-utils-BmPRjZqq',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/keyv': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.keyv-fqUrZyLu',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/json5': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.json5-p3XYM9AF',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/language-subtag-registry': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.language-subtag-registry-g4gP5g4o',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/language-tags': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.language-tags-d8kdDjW2',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/levn': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.levn-iE87WJxt',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/lightningcss': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.lightningcss-9johJyQ8',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/lightningcss-darwin-arm64': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.lightningcss-darwin-arm64-LbvbUzHO',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/locate-path': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.locate-path-LkvjvMog',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/lodash.merge': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.lodash.merge-6KLE5u6Y',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/loose-envify': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.loose-envify-EQVdvsZR',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/magic-string': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.magic-string-3q4GPAQQ',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/math-intrinsics': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.math-intrinsics-4u42WToa',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/merge2': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.merge2-8yFDzWDm',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/minimatch': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.minimatch-gEywTTay',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/minimist': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.minimist-Koz3oUoG',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/micromatch': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.micromatch-tG3smGeT',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/minipass': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.minipass-pn8r9s9t',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/minizlib': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.minizlib-amPFkDZW',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/ms': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.ms-UH7gyJE1',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/nanoid': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.nanoid-QyQn7PPJ',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/napi-postinstall': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.napi-postinstall-41hTtMCm',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/natural-compare': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.natural-compare-4AxZDhAE',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/next': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.next-uLs7F3ez',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/object-inspect': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.object-inspect-kF6QxWbO',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/object-assign': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.object-assign-ndKF6aXn',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/object-keys': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.object-keys-Mnj2y2HT',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/object.assign': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.object.assign-CdmI1HFg',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/object.entries': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.object.entries-ifF5e9OA',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/object.fromentries': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.object.fromentries-NOA1Iua8',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/object.groupby': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.object.groupby-41Y8XpgN',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/object.values': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.object.values-akF8fSOk',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/optionator': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.optionator-OXB2XskB',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/own-keys': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.own-keys-BC2Am03M',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/p-limit': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.p-limit-nAmJlk8b',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/p-locate': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.p-locate-mVX5ebJF',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/parent-module': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.parent-module-xSJ0MBgE',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/path-exists': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.path-exists-AP52VINU',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/path-key': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.path-key-10cQp8Cz',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/picocolors': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.picocolors-jzMzV5Cf',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/picomatch': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.picomatch-4mAsri6z',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/possible-typed-array-names': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.possible-typed-array-names-RnZbmQW3',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/postcss': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.postcss-lrLzzvWt',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/prelude-ls': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.prelude-ls-frQb0Pkf',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/path-parse': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.path-parse-KuxwsDNv',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/prop-types': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.prop-types-j8k9nFAi',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/punycode': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.punycode-auByWGWf',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/queue-microtask': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.queue-microtask-l8EsqUqV',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/react': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.react-Qmnk3dgC',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/react-dom': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.react-dom-uN3bjGZs',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/react-is': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.react-is-aw3UFhqz',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/reflect.getprototypeof': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.reflect.getprototypeof-4E7uTNFT',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/regexp.prototype.flags': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.regexp.prototype.flags-JePNQwhu',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/resolve': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.resolve-5iGeMFt8',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/resolve-from': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.resolve-from-2U9LE8b9',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/resolve-pkg-maps': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.resolve-pkg-maps-ZNTwiRS9',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/reusify': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.reusify-KA3tjHk3',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/run-parallel': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.run-parallel-oVLSx941',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/safe-array-concat': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.safe-array-concat-CejKxYFG',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/safe-push-apply': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.safe-push-apply-YRUVIo8d',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/safe-regex-test': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.safe-regex-test-3hnvxYgb',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/scheduler': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.scheduler-goGMsg5i',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/semver': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.semver-w1GxeY7B',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/set-function-length': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.set-function-length-3WtWkk4M',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/set-function-name': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.set-function-name-ZgBe6uYH',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/set-proto': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.set-proto-MOpT6E0r',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/sharp': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.sharp-YMDMen3A',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/shebang-command': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.shebang-command-axdTaXcU',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/shebang-regex': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.shebang-regex-wImUETel',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/side-channel-list': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.side-channel-list-1PrrOwqc',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/side-channel': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.side-channel-J5NRDR2f',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/side-channel-map': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.side-channel-map-zBzDuT8D',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/side-channel-weakmap': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.side-channel-weakmap-HYD8SUFL',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/source-map-js': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.source-map-js-KcdviFt9',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/stable-hash': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.stable-hash-tYCZ5bI2',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/stop-iteration-iterator': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.stop-iteration-iterator-Ko6zx5Qz',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/string.prototype.includes': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.string.prototype.includes-h7E5pzR2',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/string.prototype.matchall': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.string.prototype.matchall-oQKdpZ30',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/string.prototype.repeat': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.string.prototype.repeat-4Z4Mtf1a',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/string.prototype.trim': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.string.prototype.trim-x03A7hiu',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/string.prototype.trimend': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.string.prototype.trimend-FP51J3TU',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/string.prototype.trimstart': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.string.prototype.trimstart-EQHYsOYo',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/strip-bom': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.strip-bom-s94SJgM6',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/strip-json-comments': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.strip-json-comments-I9LBQmTK',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/styled-jsx': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.styled-jsx-V8MIDB8P',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/supports-color': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.supports-color-9nSrnpmJ',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/supports-preserve-symlinks-flag': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.supports-preserve-symlinks-flag-ZMuP5ANu',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/tailwindcss': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.tailwindcss-mnjncyg8',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/tapable': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.tapable-uTmR501a',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/tar': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.tar-qgYPGVAT',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/tinyglobby': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.tinyglobby-e4bfSDho',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/to-regex-range': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.to-regex-range-UHnABH9V',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/ts-api-utils': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.ts-api-utils-FgZaTxMP',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/tsconfig-paths': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.tsconfig-paths-usNQsm8b',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/tslib': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.tslib-btihc8My',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/type-check': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.type-check-9MmQoYU7',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/typed-array-buffer': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.typed-array-buffer-DE4KWtbQ',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/typed-array-byte-length': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.typed-array-byte-length-oVDfvMHg',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/typed-array-byte-offset': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.typed-array-byte-offset-gdOhlVaY',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/typed-array-length': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.typed-array-length-XkHey3wc',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/typescript': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.typescript-aDdoMmxk',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/unbox-primitive': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.unbox-primitive-5IAeDhGn',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/undici-types': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.undici-types-YcZmk31G',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/unrs-resolver': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.unrs-resolver-P3FSMulN',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/uri-js': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.uri-js-vlcdcSnb',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/which': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.which-dUbSBlrq',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/which-boxed-primitive': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.which-boxed-primitive-Sovd3b0r',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/which-builtin-type': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.which-builtin-type-3DC3awvF',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/which-collection': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.which-collection-sPsJ4wEd',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/which-typed-array': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.which-typed-array-V2DnmMMd',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/word-wrap': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.word-wrap-zoZb8r0Z',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/yallist': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.yallist-qNBSPp71',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/yocto-queue': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.yocto-queue-UK3eUnYV',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@alloc/quick-lru': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@alloc/.quick-lru-vhgiuJ5I',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@emnapi/core': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@emnapi/.core-Jwx8Ul8q',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@emnapi/wasi-threads': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@emnapi/.wasi-threads-yOt79IFq',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint/config-array': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint/.config-array-04ATqBHX',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint/config-helpers': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint/.config-helpers-uiTGDq1m',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint/core': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint/.core-6O8sjEI2',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint/eslintrc': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint/.eslintrc-CvXEUwcc',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint/js': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint/.js-Dh7HU5u2',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint/object-schema': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint/.object-schema-d1Ys635M',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint/plugin-kit': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint/.plugin-kit-26R7vTdl',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@emnapi/runtime': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@emnapi/.runtime-Z2sZLjDJ',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint-community/regexpp': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint-community/.regexpp-qC1xFRNp',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint-community/eslint-utils': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@eslint-community/.eslint-utils-qsac7wcP',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@humanfs/core': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@humanfs/.core-0PUQAC3l',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@humanfs/node': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@humanfs/.node-p9Zc5mqG',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@humanwhocodes/module-importer': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@humanwhocodes/.module-importer-bxQ4eBOi',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@humanwhocodes/retry': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@humanwhocodes/.retry-2U7cNs2d',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@img/colour': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@img/.colour-0fBQ3NH0',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@img/sharp-darwin-arm64': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@img/.sharp-darwin-arm64-RrCjDXpv',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@img/sharp-libvips-darwin-arm64': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@img/.sharp-libvips-darwin-arm64-3zjUgMaG',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@isaacs/fs-minipass': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@isaacs/.fs-minipass-ap3J0Lei',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@jridgewell/gen-mapping': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@jridgewell/.gen-mapping-lEYk4fEo',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@jridgewell/remapping': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@jridgewell/.remapping-NYcvAM8x',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@jridgewell/resolve-uri': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@jridgewell/.resolve-uri-d6EKimWk',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@jridgewell/sourcemap-codec': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@jridgewell/.sourcemap-codec-ItM7u1Ux',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@jridgewell/trace-mapping': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@jridgewell/.trace-mapping-GoV10yas',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@napi-rs/wasm-runtime': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@napi-rs/.wasm-runtime-cIBna6C1',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@next/env': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@next/.env-ifMA9XvQ',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@next/eslint-plugin-next': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@next/.eslint-plugin-next-SLDOjJE4',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@next/swc-darwin-arm64': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@next/.swc-darwin-arm64-YYxGQaZc',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@nodelib/fs.scandir': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@nodelib/.fs.scandir-WMfplsu9',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@nodelib/fs.stat': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@nodelib/.fs.stat-cB8EbKzz',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@nodelib/fs.walk': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@nodelib/.fs.walk-AKfSGDZa',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@nolyfill/is-core-module': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@nolyfill/.is-core-module-lq5nhQrV',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@openai/chatkit': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@openai/.chatkit-TzwDHc6t',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@openai/chatkit-react': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@openai/.chatkit-react-MHN7aXwR',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@rtsao/scc': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@rtsao/.scc-NdMZddtK',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@rushstack/eslint-patch': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@rushstack/.eslint-patch-FQsjIxhI',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@swc/helpers': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@swc/.helpers-vJ1IqBo1',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@tailwindcss/node': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@tailwindcss/.node-Ft5HOyac',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@tailwindcss/oxide': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@tailwindcss/.oxide-Bd6bhMKS',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@tailwindcss/oxide-darwin-arm64': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@tailwindcss/.oxide-darwin-arm64-WZTBez9F',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@tailwindcss/postcss': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@tailwindcss/.postcss-TDX82YJJ',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@tybys/wasm-util': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@tybys/.wasm-util-QGA2ohxN',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@types/estree': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@types/.estree-cVg4FNyd',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@types/json-schema': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@types/.json-schema-p8KAa8gB',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@types/json5': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@types/.json5-1cFSnMnt',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@types/node': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@types/.node-VHMHOY1F',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@types/react': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@types/.react-ZoNnd6qn',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@types/react-dom': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@types/.react-dom-v77jby7F',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/eslint-plugin': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/.eslint-plugin-1xGunt0W',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/project-service': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/.project-service-YG5CGH1J',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/parser': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/.parser-IC1iZtEF',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/scope-manager': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/.scope-manager-OduDZDaP',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/tsconfig-utils': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/.tsconfig-utils-indN3AeO',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/type-utils': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/.type-utils-0tpGGOAo',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/types': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/.types-jvqwR3qj',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/typescript-estree': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/.typescript-estree-duVeNWUh',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/utils': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/.utils-6mTCoZmX',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/visitor-keys': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@typescript-eslint/.visitor-keys-YahZRltL',
+332 silly reify   '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@unrs/resolver-binding-darwin-arm64': '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/@unrs/.resolver-binding-darwin-arm64-4SoKLXrU'
+332 silly reify }
+333 verbose stack Error: ENOTEMPTY: directory not empty, rename '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-import-resolver-node' -> '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.eslint-import-resolver-node-KdysrZpz'
+333 verbose stack     at async Object.rename (node:internal/fs/promises:787:10)
+333 verbose stack     at async moveFile (/usr/local/lib/node_modules/npm/node_modules/@npmcli/fs/lib/move-file.js:30:5)
+333 verbose stack     at async Promise.allSettled (index 59)
+333 verbose stack     at async [reifyPackages] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:313:11)
+333 verbose stack     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:125:5)
+333 verbose stack     at async Install.exec (/usr/local/lib/node_modules/npm/lib/commands/install.js:150:5)
+333 verbose stack     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:208:9)
+333 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:67:5)
+334 error code ENOTEMPTY
+335 error syscall rename
+336 error path /Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-import-resolver-node
+337 error dest /Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.eslint-import-resolver-node-KdysrZpz
+338 error errno -66
+339 error ENOTEMPTY: directory not empty, rename '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/eslint-import-resolver-node' -> '/Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/node_modules/.eslint-import-resolver-node-KdysrZpz'
+340 silly unfinished npm timer reify 1763037754572
+341 silly unfinished npm timer reify:retireShallow 1763037754644
+342 verbose cwd /Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP
+343 verbose os Darwin 25.0.0
+344 verbose node v24.11.1
+345 verbose npm  v11.6.2
+346 verbose exit -66
+347 verbose code -66
+348 error A complete log of this run can be found in: /Users/renato/Desktop/VS Code Wokspace/APP COPILOT FUP/.npm-cache/_logs/2025-11-13T12_42_34_369Z-debug-0.log
