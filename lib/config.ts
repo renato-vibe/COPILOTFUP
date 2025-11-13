@@ -6,7 +6,7 @@ const DEFAULT_WORKFLOW_ID =
 export const WORKFLOW_ID =
   process.env.NEXT_PUBLIC_CHATKIT_WORKFLOW_ID?.trim() ?? DEFAULT_WORKFLOW_ID;
 
-const DEFAULT_SESSION_ENDPOINT = "/functions/api/create-session";
+const DEFAULT_SESSION_ENDPOINT = "/api/create-session";
 
 export const CREATE_SESSION_ENDPOINT =
   process.env.NEXT_PUBLIC_CREATE_SESSION_ENDPOINT?.trim() ??
