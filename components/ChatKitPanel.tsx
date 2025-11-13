@@ -37,6 +37,8 @@ type ErrorState = {
 
 const isBrowser = typeof window !== "undefined";
 const isDev = process.env.NODE_ENV !== "production";
+const CHATKIT_SCRIPT_URL =
+  "https://cdn.platform.openai.com/deployments/chatkit/chatkit.js";
 
 const createInitialErrors = (): ErrorState => ({
   script: null,
@@ -68,6 +70,46 @@ export function ChatKitPanel({
 
   const setErrorState = useCallback((updates: Partial<ErrorState>) => {
     setErrors((current) => ({ ...current, ...updates }));
+  }, []);
+
+  useEffect(() => {
+    if (!isBrowser) {
+      return;
+    }
+    if (window.customElements?.get("openai-chatkit")) {
+      window.dispatchEvent(new Event("chatkit-script-loaded"));
+      return;
+    }
+
+    const existing = document.querySelector<HTMLScriptElement>(
+      "script[data-chatkit-script]"
+    );
+    if (existing) {
+      return;
+    }
+
+    const script = document.createElement("script");
+    script.src = CHATKIT_SCRIPT_URL;
+    script.async = true;
+    script.dataset.chatkitScript = "true";
+    const handleLoad = () => {
+      window.dispatchEvent(new Event("chatkit-script-loaded"));
+    };
+    const handleError = (event: Event) => {
+      window.dispatchEvent(
+        new CustomEvent("chatkit-script-error", {
+          detail: (event as ErrorEvent)?.message ?? "Unable to load chatkit.js",
+        })
+      );
+    };
+    script.addEventListener("load", handleLoad);
+    script.addEventListener("error", handleError);
+    document.head.appendChild(script);
+
+    return () => {
+      script.removeEventListener("load", handleLoad);
+      script.removeEventListener("error", handleError);
+    };
   }, []);
 
   useEffect(() => {

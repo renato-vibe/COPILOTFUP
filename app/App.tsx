@@ -10,6 +10,10 @@ export default function App() {
   const { scheme, setScheme } = useColorScheme();
   const [status, setStatus] = useState("Inicializando asistente…");
   const [lastEvent, setLastEvent] = useState("Esperando interacción");
+  const buildLabel =
+    process.env.NEXT_PUBLIC_BUILD_ID ??
+    process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA?.slice(0, 8) ??
+    "dev";
 
   const handleWidgetAction = useCallback(async (action: FactAction) => {
     setLastEvent(`Hecho guardado (${action.factId.slice(0, 6)}…)`);
@@ -60,7 +64,7 @@ export default function App() {
 
         <footer className="mt-6 w-full text-right">
           <span className="rounded-full bg-white/10 px-3 py-1 text-[11px] font-medium tracking-widest text-white/70">
-            Build {process.env.NEXT_PUBLIC_BUILD_ID ?? "dev"}
+            Build {buildLabel}
           </span>
         </footer>
       </div>

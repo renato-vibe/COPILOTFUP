@@ -36,9 +36,10 @@
 
 3. **Completa las variables**
 
-   - `OPENAI_API_KEY`: clave del mismo proyecto/organización donde vive el workflow. Recuerda limpiar cualquier `OPENAI_API_KEY` exportada en tu shell (`unset OPENAI_API_KEY`).
-   - `NEXT_PUBLIC_CHATKIT_WORKFLOW_ID` *(opcional)*: el repo ya apunta al workflow `wf_691498ab3cd08190b31a1ecadd223ed008ae1288861d6473`. Cambia este valor si publicas una versión diferente.
-   - `CHATKIT_API_BASE` *(opcional)*: URL personalizada si usas un endpoint distinto al de OpenAI.
+- `OPENAI_API_KEY`: clave del mismo proyecto/organización donde vive el workflow. Recuerda limpiar cualquier `OPENAI_API_KEY` exportada en tu shell (`unset OPENAI_API_KEY`).
+- `NEXT_PUBLIC_CHATKIT_WORKFLOW_ID` *(opcional)*: el repo ya apunta al workflow `wf_691498ab3cd08190b31a1ecadd223ed008ae1288861d6473`. Cambia este valor si publicas una versión diferente.
+- `CHATKIT_API_BASE` *(opcional)*: URL personalizada si usas un endpoint distinto al de OpenAI.
+- `NEXT_PUBLIC_BUILD_ID` *(opcional)*: etiqueta visible en la UI para saber qué build está desplegado (útil para QA). Puedes usar un timestamp, tag de release o dejarlo en `local-dev`.
 
 4. **Ejecuta la app**
 
