@@ -40,6 +40,7 @@
 - `NEXT_PUBLIC_CHATKIT_WORKFLOW_ID` *(opcional)*: el repo ya apunta al workflow `wf_691498ab3cd08190b31a1ecadd223ed008ae1288861d6473`. Cambia este valor si publicas una versión diferente.
 - `CHATKIT_API_BASE` *(opcional)*: URL personalizada si usas un endpoint distinto al de OpenAI.
 - `NEXT_PUBLIC_BUILD_ID` *(opcional)*: etiqueta visible en la UI para saber qué build está desplegado (útil para QA). Puedes usar un timestamp, tag de release o dejarlo en `local-dev`.
+- `NEXT_PUBLIC_CREATE_SESSION_ENDPOINT` *(opcional)*: endpoint que devuelve `client_secret`. Por defecto apunta a `/functions/api/create-session`, que es el Worker incluido en la carpeta `functions/`. Cámbialo si auto-hospedas el endpoint en otra URL.
 
 4. **Ejecuta la app**
 
@@ -47,7 +48,7 @@
    npm run dev
    ```
 
-   Visita `http://localhost:3000`, usa las tarjetas de inicio para probar prompts y cambia el tema para verificar el control bidireccional.
+   Visita `http://localhost:3000` para editar la UI. Para probar el flujo completo (incluyendo `/functions/api/create-session`), levanta `wrangler pages dev . -- npm run build` y usa `http://127.0.0.1:8788` como host: la función edge estará disponible y ChatKit mostrará el compositor.
 
 5. **Construye o despliega**
 
