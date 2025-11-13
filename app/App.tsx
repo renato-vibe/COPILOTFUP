@@ -12,7 +12,9 @@ export default function App() {
   const [lastEvent, setLastEvent] = useState("Esperando interacción");
   const buildLabel =
     process.env.NEXT_PUBLIC_BUILD_ID ??
+    process.env.CF_PAGES_COMMIT_SHA?.slice(0, 8) ??
     process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA?.slice(0, 8) ??
+    process.env.CF_PAGES_DEPLOYMENT_ID?.slice(0, 8) ??
     "dev";
 
   const handleWidgetAction = useCallback(async (action: FactAction) => {
