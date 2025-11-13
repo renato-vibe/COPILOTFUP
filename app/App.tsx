@@ -30,53 +30,61 @@ export default function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-slate-950 text-white">
-      <div className="mx-auto flex min-h-screen w-full max-w-5xl flex-col px-4 pb-10 pt-8 sm:px-6 lg:px-8">
-        <header className="flex flex-1 flex-col items-center text-center">
-          <div className="flex h-14 w-14 items-center justify-center rounded-[22px] bg-white/90 p-2 shadow-[0_15px_40px_rgba(15,23,42,0.35)]">
+    <div className="relative min-h-screen bg-slate-950 text-white">
+      <div className="pointer-events-none absolute inset-0 -z-10">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(148,163,184,0.15),transparent_55%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(45,212,191,0.25),transparent_50%)]" />
+        <div className="absolute inset-0 flex items-center justify-center opacity-5">
+          <Image src="/logo-fup.png" alt="Logo FUP Watermark" width={280} height={160} priority />
+        </div>
+      </div>
+
+      <div className="mx-auto flex min-h-screen w-full max-w-4xl flex-col px-4 pb-10 pt-12 sm:px-6">
+        <header className="text-center">
+          <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-[18px] bg-white/95 p-2 shadow-[0_20px_35px_rgba(15,23,42,0.35)]">
             <Image
               src="/logo-fup.png"
               alt="Logo FUP"
-              width={56}
-              height={36}
+              width={48}
+              height={30}
               className="h-full w-full object-contain"
               priority
             />
           </div>
-          <p className="mt-4 text-[11px] font-semibold uppercase tracking-[0.45em] text-white/60">
-            FollowUP Copilot
+          <p className="mt-4 text-[11px] font-semibold tracking-[0.5em] text-white/50">
+            FOLLOWUP COPILOT
           </p>
-          <h1 className="mt-3 text-3xl font-semibold leading-tight text-white sm:text-4xl">
-            Conversaciones enfocadas, sin ruido.
+          <h1 className="mt-3 text-3xl font-semibold text-white sm:text-[2.75rem]">
+            Chat limpio, listo para actuar.
           </h1>
-          <p className="mt-3 max-w-2xl text-sm text-white/65 sm:text-base">
-            Interfaz monocromática optimizada para Chrome y Safari en iOS / Android.
-            Ejecuta el workflow
+          <p className="mt-3 text-sm text-white/70">
+            Workflow
             <span className="mx-2 inline-flex items-center rounded-full bg-white/10 px-2 py-0.5 font-mono text-[11px] text-teal-200">
               {WORKFLOW_ID || "wf_config"}
             </span>
-            sobre ChatKit + AgentKit, manteniendo el foco solo en la conversación.
+            ejecutándose sobre ChatKit + AgentKit.
           </p>
         </header>
 
         <section className="mt-8 w-full" id="panel">
-          <div className="rounded-[32px] border border-white/10 bg-white/5 p-5 backdrop-blur">
-            <div className="mb-4 grid gap-2 text-xs text-white/70 sm:grid-cols-2">
-              <span className="rounded-2xl bg-white/5 px-3 py-2 text-center sm:text-left">
+          <div className="rounded-[36px] border border-white/10 bg-white/5 p-4 shadow-[0_35px_80px_rgba(8,15,40,0.45)] backdrop-blur">
+            <div className="mb-3 flex flex-col gap-2 text-xs text-white/70 sm:flex-row sm:items-center sm:justify-between">
+              <span className="inline-flex items-center gap-2 rounded-full bg-slate-900/60 px-3 py-1">
+                <span className="h-2.5 w-2.5 rounded-full bg-emerald-300" />
                 {panelStatus}
               </span>
-              <span className="rounded-2xl bg-white/5 px-3 py-2 text-center sm:text-right">
+              <span className="inline-flex items-center rounded-full bg-slate-900/40 px-3 py-1">
                 {lastEvent}
               </span>
             </div>
-            <div className="rounded-[26px] border border-white/10 bg-black/40 p-2 sm:p-3">
+            <div className="rounded-[28px] border border-white/10 bg-black/50 p-2 sm:p-3">
               <ChatKitPanel
                 theme={scheme}
                 onWidgetAction={handleWidgetAction}
                 onResponseEnd={handleResponseEnd}
                 onThemeRequest={setScheme}
                 onStatusChange={setPanelStatus}
-                className="min-h-[65vh] sm:min-h-[540px]"
+                className="min-h-[60vh] sm:min-h-[520px]"
               />
             </div>
           </div>
