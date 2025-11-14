@@ -1,5 +1,6 @@
-import App from "./App";
+"use client";
+import ProtectedApp from "./ProtectedApp";
 
 export default function Home() {
-  return <App />;
+  return <ProtectedApp />;
 }

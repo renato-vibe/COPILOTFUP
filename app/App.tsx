@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useCallback, useState } from "react";
 import { ChatKitPanel, type FactAction } from "@/components/ChatKitPanel";
 import { useColorScheme } from "@/hooks/useColorScheme";
+import { LogoutButton } from "@/components/LogoutButton";
 
 export default function App() {
   const { scheme, setScheme } = useColorScheme();
@@ -31,9 +32,12 @@ export default function App() {
           </div>
           <span className="tracking-[0.4em]">FOLLOWUP</span>
         </div>
-        <span className="rounded-full bg-white/10 px-3 py-1 text-[10px] uppercase tracking-[0.3em] text-white/70">
-          Build {buildLabel}
-        </span>
+        <div className="flex items-center gap-2">
+          <span className="rounded-full bg-white/10 px-3 py-1 text-[10px] uppercase tracking-[0.3em] text-white/70">
+            Build {buildLabel}
+          </span>
+          <LogoutButton />
+        </div>
       </div>
 
       <main className="flex flex-1 items-center justify-center px-4 pb-6">
